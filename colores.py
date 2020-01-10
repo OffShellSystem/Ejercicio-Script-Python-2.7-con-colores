@@ -12,7 +12,7 @@ rojo_var="\x1b[1;31m"
 cs_color='\033[0;m'
 
 os.system('sudo apt-get install toilet')
-os.system('sudo apt-get install dnsutils -y')
+os.system('sudo apt-get install whatweb')
 
 os.system('clear')
 
