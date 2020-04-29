@@ -20,7 +20,7 @@ time.sleep(0.5)
 
 os.system('toilet -f pagga --gay "OffShell  System"')
 
-print " "
+print (" ")
 
 time.sleep(0.5)
 
@@ -32,7 +32,7 @@ rojo ('Los dominios albergan información pública\na la que acceder mediante lo
 
 time.sleep(0.5)
 
-print " "
+print (" ")
 
 rojo ('Estescript resume esa información y\nla muestra por pantalla gracias al comando ' + verde + 'WhatWeb.')
 
@@ -44,23 +44,23 @@ whatweb = commands.getoutput('whatweb ' + str(user))
 
 time.sleep(0.5)
 
-print " "
+print (" ")
 
 rojo ('Guardando Información  -->  ' + verde + str(user) + cs_color)
 
 time.sleep(0.5)
 
-print " "
+print (" ")
 
 rojo ('Procesando ingredientes' + cs_color)
 
-print " "
+print (" ")
 
 time.sleep(0.5)
 
 rojo ('WHATWEB \n' + verde + str(whatweb))
 
-print " "
+print (" ")
 
 time.sleep(1)
 
