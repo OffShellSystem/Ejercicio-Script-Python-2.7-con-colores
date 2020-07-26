@@ -1,8 +1,7 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python3
 
 import os
-import commands
+import subprocess
 import time
 
 def rojo(skk): print("\033[91m {}\033[01m" .format(skk))
@@ -20,7 +19,7 @@ time.sleep(0.5)
 
 os.system('toilet -f pagga --gay "OffShell  System"')
 
-print " "
+print (" ")
 
 time.sleep(0.5)
 
@@ -32,35 +31,35 @@ rojo ('Los dominios albergan información pública\na la que acceder mediante lo
 
 time.sleep(0.5)
 
-print " "
+print (" ")
 
 rojo ('Estescript resume esa información y\nla muestra por pantalla gracias al comando ' + verde + 'WhatWeb.')
 
 time.sleep(0.5)
 
-user = raw_input(verde + 'Analizar ' + rojo_var + '------------ > ' + verde)
+user = input(verde + 'Analizar ' + rojo_var + '------------ > ' + verde)
 
-whatweb = commands.getoutput('whatweb ' + str(user))
+whatweb = subprocess.getoutput('whatweb ' + str(user))
 
 time.sleep(0.5)
 
-print " "
+print (" ")
 
 rojo ('Guardando Información  -->  ' + verde + str(user) + cs_color)
 
 time.sleep(0.5)
 
-print " "
+print (" ")
 
 rojo ('Procesando ingredientes' + cs_color)
 
-print " "
+print (" ")
 
 time.sleep(0.5)
 
 rojo ('WHATWEB \n' + verde + str(whatweb))
 
-print " "
+print (" ")
 
 time.sleep(1)
 
